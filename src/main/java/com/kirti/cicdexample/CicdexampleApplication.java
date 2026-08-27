@@ -7,16 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
-@RestController
 public class CicdexampleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(CicdexampleApplication.class, args);
-	}
-
-	@GetMapping
-	public String sayHello(){
-		return "Hello";
 	}
 }
 //echo "# cicd-example-repo" >> README.md
