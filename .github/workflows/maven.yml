@@ -40,7 +40,7 @@ jobs:
       with:
         image: kirti0071/cicd-repository
         tags: latest
-        registry: doker.io
+        registry: docker.io
         dockerfile: Dockerfile
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
